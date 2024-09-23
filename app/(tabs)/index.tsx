@@ -4,9 +4,9 @@ import * as Linking from 'expo-linking';
 
 export default function App() {
   const phoneNumbers: string[] = [
-    '94710819319',  // Example number (replace with real numbers)
+    '94710819319',  // ( numbers)
     '94712965583',
-    // Add more numbers up to 50
+
   ];
 
   // State to track sent messages
@@ -32,7 +32,7 @@ export default function App() {
   };
 
   const renderItem = ({ item }: { item: string }) => {
-    const message = "Your order is delivered!";  // Custom message
+    const message = "Your order is delivered!";  // message
     const hasSentMessage = sentMessages.includes(item);
 
     return (
